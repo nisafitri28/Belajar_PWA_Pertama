@@ -10,6 +10,7 @@ const urlsToCache = [
   `${BASE_URL}icons/icon-192x192.png`,
   `${BASE_URL}icons/icon-512x512.png`,
 ];
+//image yang mau di daftarkan di masukan ke sii
 
 // Install Service Worker & simpan file ke cache
 self.addEventListener("install", event => {
