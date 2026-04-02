@@ -1,25 +1,25 @@
 {
   "id": "./",
   "name": "PWA Template Responsif",
-  //nama aplikasi 
+
   "short_name": "PWA Demo",
-  //singkatan
+ 
   "description": "Aplikasi PWA responsif untuk demonstrasi template dasar Progressive Web App dengan dukungan offline dan installable.",
-  //deskripsi dari aplikasi tersebut 
+  
   "start_url": "./index.html",
-  // pas di klik buka ngarah kemana, ngarah ke html brarti kalau sesuai yang ada di kodingan ini
+  
   "scope": "./",
   "display": "standalone",
-  //tampilan saat di buka, standalone itu tampilannya seperti aplikasi biasa, bukan di browser
+  
   "background_color": "#4F46E5",
-  //warna bg saat aplikasi di buka, ini warna ungu tua
+  
   "theme_color": "#4F46E5",
   "orientation": "portrait",
   "lang": "id",
   "icons": [
     {
       "src": "icons/icon-192x192-A.png",
-      //nama berdasarkan reesolusi dan ukuran
+     
       "sizes": "192x192",
       "type": "image/png"
     },
@@ -30,7 +30,7 @@
     }
   ],
   "screenshots": [
-    //untuk dokumentasi, dev berikutnya 
+   
     {
       "src": "icons/screenshot1.png",
       "sizes": "1080x1920",
@@ -44,7 +44,6 @@
   ],
   "shortcuts": [
     {
-      // setelah di buka larinya kemana
       "name": "Buka Beranda",
       "short_name": "Home",
       "url": "./index.html",
@@ -57,7 +56,6 @@
     }
   ],
   "categories": [
-    //opsional terserah kita
     "productivity",
     "utilities"
   ]
