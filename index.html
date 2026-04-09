@@ -581,7 +581,6 @@
         loadTasks();
 
         if ('serviceWorker' in navigator) {
-        //untuk register bahwasanya apk nya suport pwa di file sservice wokerr.js, cara memastikannya cek sesuai kodingan di bawah
             window.addEventListener('load', () => {
                 navigator.serviceWorker.register('./service-worker.js')
                     .then(() => console.log('Service Worker registered'))
